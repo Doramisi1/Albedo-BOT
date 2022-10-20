@@ -52,7 +52,7 @@ Ketik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi
 🚀 : Makanya bantu donasi buat support + beli apikey unlimited bjir :v
 
 Donasi :
-Nomor Developer : wa.me/6282127487538
+Nomor Developer : wa.me/6281368176386
 Nomor Owner Bot : wa.me/${nomorown}`
 
 // yang hapus nomor developer mudah-mudahan banyak crash
