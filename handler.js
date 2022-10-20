@@ -878,7 +878,7 @@ export async function handler(chatUpdate) {
                     if (!('antiSticker' in chat)) chat.antiSticker = false
                     if (!('antiToxic' in chat)) chat.antiToxic = false
                     if (!('detect' in chat)) chat.detect = false
-                    if (!('delete' in chat)) chat.delete = true
+                    if (!('delete' in chat)) chat.delete = false
                     if (!('getmsg' in chat)) chat.getmsg = false
                     if (!('isBanned' in chat)) chat.isBanned = false
                     if (!('lastAnime' in chat)) chat.lastAnime = false
@@ -905,7 +905,7 @@ export async function handler(chatUpdate) {
                         antiSticker: false,
                         antiToxic: false,
                         detect: false,
-                        delete: true,
+                        delete: false,
                         expired: 0,
                         getmsg: false,
                         isBanned: false,
@@ -1298,7 +1298,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
                             
- /* conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+ /* conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'malas X cuek', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram/b4c00t4an_s3l3b',
     mediaType: 2, 
     description: sgc,
@@ -1311,7 +1311,7 @@ export async function participantsUpdate({ id, participants, action }) {
   let welcom = 'https://telegra.ph/file/aab124271570c51f76aac.jpg'
 
   let godbye = 'https://telegra.ph/file/deaf59bc3e5216eaae814.jpg'
-  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Albedo-BOT', fkontak)
+  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ghost-BOT', fkontak)
   
                     }
                 }
